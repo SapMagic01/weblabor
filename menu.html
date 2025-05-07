@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReceptMester - Mint a Nosalty</title>
+    <link rel="stylesheet" href="valami.css">
+  
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ReceptMester</h1>
+                <p>Mindent a főzésről</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Főoldal</a></li>
+                    <li><a href="menu.html"> Menü</a></li>
+                    <li><a href="szakacsok.html"> Szakácsaink</a></li>
+                    <li><a href="szponzorok.html"> Szponzor</a></li>
+                    <li><a href="ertekelesek.html"> Értékelések</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Keresés receptek között...">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured">
+
+            <div class="card">
+                <div class="table-responsive">
+                    <table class="customer-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Vevő neve</th>
+                                <th>Étel/Recept</th>
+                                <th>Értékelés (1-5)</th>
+                                <th>Visszajelzés</th>
+                                <th>Dátum</th>
+                                <th>Státusz</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Kovács Anna</td>
+                                <td>Lasagne Bolognese</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Az életem legjobb lasagnejét sütöttem a recept alapján!</td>
+                                <td>2023.01.15</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Nagy Béla</td>
+                                <td>Tiramisu</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Finom lett, bár a mascarpone kicsit túl drága volt</td>
+                                <td>2023.02.03</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Horváth Zsuzsa</td>
+                                <td>Carbonara</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Végre tökéletesen sikerült a carbonarám!</td>
+                                <td>2023.02.18</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Tóth Gábor</td>
+                                <td>Házi pizza</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>A tésztarecept csodálatos, már többször elkészítettem</td>
+                                <td>2023.03.05</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Szabó Éva</td>
+                                <td>Chilis bab</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Nagyon ízletes, de legközelebb kevesebb chilivel készítem</td>
+                                <td>2023.03.22</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Varga Péter</td>
+                                <td>Beef Stroganoff</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>A család minden tagja imádta, köszönöm a tippeket!</td>
+                                <td>2023.04.10</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Fodor Ildikó</td>
+                                <td>Zöldséges quiche</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Tökéletes vegetárius főétel, gyorsan megvan</td>
+                                <td>2023.04.28</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Molnár Krisztina</td>
+                                <td>Rántott csirke</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Ropogós és szaftos, de a panírozás még gyakorolni való</td>
+                                <td>2023.05.15</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Balogh Márton</td>
+                                <td>Gulyásleves</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Pont olyan lett, mint nagymamámé volt</td>
+                                <td>2023.06.02</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Kiss Alexandra</td>
+                                <td>Csokoládé mousse</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Laza, könnyű és isteni finom desszert</td>
+                                <td>2023.06.20</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Takács József</td>
+                                <td>Halászlé</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Autentikus ízek, bár a halkiválasztás nehéz volt</td>
+                                <td>2023.07.08</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Simon Andrea</td>
+                                <td>Ratatouille</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Gyönyörű prezentáció és fantasztikus ízek</td>
+                                <td>2023.07.25</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Lukács Dániel</td>
+                                <td>Pulled pork</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>12 óra főzés után minden percét megérte</td>
+                                <td>2023.08.12</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Gáspár Eszter</td>
+                                <td>Pad thai</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Igazi thai ízek, de nehéz volt hozzájutni néhány alapanyaghoz</td>
+                                <td>2023.08.30</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Fekete Gergő</td>
+                                <td>Házi hamburger</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>A bucirecept forradalmasította a hamburger sütésemet</td>
+                                <td>2023.09.17</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Szűcs Mariann</td>
+                                <td>Crème brûlée</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Professzionális desszert otthonról is</td>
+                                <td>2023.10.05</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Vincze Balázs</td>
+                                <td>Rakott krumpli</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Egyszerű és gyors, de lehet variálni a receptet</td>
+                                <td>2023.10.22</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Bognár Réka</td>
+                                <td>Spagetti carbonara</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Végre autentikus olasz ízek otthon</td>
+                                <td>2023.11.10</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Papp Tamás</td>
+                                <td>Házi kenyér</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Először sült tökéletesen a kenyér, köszönöm a tippeket!</td>
+                                <td>2023.11.28</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>Király Zoltán</td>
+                                <td>Pörkölt</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Pont a jó állagú, igazi magyaros pörkölt</td>
+                                <td>2023.12.15</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>Majoros Ildikó</td>
+                                <td>Palacsinta</td>
+                                <td>4 <i class="fas fa-star"></i></td>
+                                <td>Vékony és rugalmas tészta, töltelékfüggő</td>
+                                <td>2024.01.05</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>Orsós Gábor</td>
+                                <td>Grillezett lazac</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Pontosan a megfelelő hőfok és időtartam a receptben</td>
+                                <td>2024.01.23</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>Barta Szilvia</td>
+                                <td>Zöldséges lasagne</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Vegetárius változat is csodálatos lehet</td>
+                                <td>2024.02.10</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>Németh Roland</td>
+                                <td>Házi pizza tészta</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Életem legjobb pizzája lett ezzel a tésztával</td>
+                                <td>2024.02.28</td>
+                                <td><span class="status completed">Elkészült</span></td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>Pataki Renáta</td>
+                                <td>Somlói galuska</td>
+                                <td>5 <i class="fas fa-star"></i></td>
+                                <td>Ünnepi desszert, ami mindenkit lenyűgözött</td>
+                                <td>2024.03.15</td>
+                                <td><span class="status in-progress">Kipróbálás alatt</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rólunk</h3>
+                    <p>A ReceptMester célja, hogy mindenki megtalálja a számára megfelelő receptet, és örömet leljen a főzésben.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Gyors linkek</h3>
+                    <ul>
+                        <li><a href="#">Főoldal</a></li>
+                        <li><a href="#">Receptek</a></li>
+                        <li><a href="#">Kategóriák</a></li>
+                        <li><a href="#">Napi menü</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kapcsolat</h3>
+                    <p>info@receptmester.hu</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 ReceptMester - Minden jog fenntartva
+        </div>
+    </footer>
+</body>
+</html>
